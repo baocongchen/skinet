@@ -15,7 +15,6 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
     <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
-    <Reference Include="System" />
 
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
