@@ -14,8 +14,7 @@ namespace API.Dtos
         [EmailAddress]
         public string Email { get; set; }
         [Required]
-        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$
-", ErrorMessage = "Your password is weak!")]
+        [RegularExpression(@"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$", ErrorMessage = "Your password is weak!")]
         public string Password { get; set; }
     }
 }
